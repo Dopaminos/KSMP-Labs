@@ -1,0 +1,1921 @@
+Index: 2/.vscode/tasks.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/.vscode/tasks.json b/2/.vscode/tasks.json
+new file mode 100644
+--- /dev/null	(date 1684871101880)
++++ b/2/.vscode/tasks.json	(date 1684871101880)
+@@ -0,0 +1,42 @@
++{
++    "version": "2.0.0",
++    "tasks": [
++        {
++            "label": "Build",
++            "type": "shell",
++            "command": "gcc",
++            "args": [
++                "-o",
++                "${fileDirname}/${fileBasenameNoExtension}",
++                "${file}"
++            ],
++            "group": "build",
++            "problemMatcher": []
++        },
++        {
++            "type": "cppbuild",
++            "label": "C/C++: gcc.exe build active file",
++            "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
++            "args": [
++                "-fdiagnostics-color=always",
++                "-g",
++                "${file}",
++                "-o",
++                "${fileDirname}\\${fileBasenameNoExtension}.exe",
++                ""
++            ],
++            "options": {
++                "cwd": "C:\\msys64\\ucrt64\\bin"
++            },
++            "problemMatcher": [
++                "$gcc"
++            ],
++            "group": {
++                "kind": "build",
++                "isDefault": true
++            },
++            "detail": "compiler: C:\\msys64\\ucrt64\\bin\\gcc.exe"
++        }
++    ]
++  }
++  
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1684920677888)
++++ b/.idea/misc.xml	(date 1684920677888)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: 2/.vscode/settings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/.vscode/settings.json b/2/.vscode/settings.json
+new file mode 100644
+--- /dev/null	(date 1684870811730)
++++ b/2/.vscode/settings.json	(date 1684870811730)
+@@ -0,0 +1,84 @@
++{
++  "C_Cpp_Runner.cCompilerPath": "gcc",
++  "C_Cpp_Runner.cppCompilerPath": "g++",
++  "C_Cpp_Runner.debuggerPath": "gdb",
++  "C_Cpp_Runner.cStandard": "",
++  "C_Cpp_Runner.cppStandard": "",
++  "C_Cpp_Runner.msvcBatchPath": "",
++  "C_Cpp_Runner.useMsvc": false,
++  "C_Cpp_Runner.warnings": [
++    "-Wall",
++    "-Wextra",
++    "-Wpedantic",
++    "-Wshadow",
++    "-Wformat=2",
++    "-Wconversion",
++    "-Wnull-dereference",
++    "-Wsign-conversion"
++  ],
++  "C_Cpp_Runner.enableWarnings": true,
++  "C_Cpp_Runner.warningsAsError": false,
++  "C_Cpp_Runner.compilerArgs": [],
++  "C_Cpp_Runner.linkerArgs": [],
++  "C_Cpp_Runner.includePaths": [],
++  "C_Cpp_Runner.includeSearch": [
++    "*",
++    "**/*"
++  ],
++  "C_Cpp_Runner.excludeSearch": [
++    "**/build",
++    "**/build/**",
++    "**/.*",
++    "**/.*/**",
++    "**/.vscode",
++    "**/.vscode/**"
++  ],
++  "C_Cpp_Runner.useAddressSanitizer": false,
++  "C_Cpp_Runner.showCompilationTime": false,
++  "files.associations": {
++    "array": "cpp",
++    "atomic": "cpp",
++    "bit": "cpp",
++    "*.tcc": "cpp",
++    "cctype": "cpp",
++    "clocale": "cpp",
++    "cmath": "cpp",
++    "compare": "cpp",
++    "concepts": "cpp",
++    "cstddef": "cpp",
++    "cstdint": "cpp",
++    "cstdio": "cpp",
++    "cstdlib": "cpp",
++    "cwchar": "cpp",
++    "cwctype": "cpp",
++    "deque": "cpp",
++    "string": "cpp",
++    "unordered_map": "cpp",
++    "vector": "cpp",
++    "exception": "cpp",
++    "algorithm": "cpp",
++    "functional": "cpp",
++    "iterator": "cpp",
++    "memory": "cpp",
++    "memory_resource": "cpp",
++    "numeric": "cpp",
++    "random": "cpp",
++    "string_view": "cpp",
++    "system_error": "cpp",
++    "tuple": "cpp",
++    "type_traits": "cpp",
++    "utility": "cpp",
++    "fstream": "cpp",
++    "initializer_list": "cpp",
++    "iosfwd": "cpp",
++    "iostream": "cpp",
++    "istream": "cpp",
++    "limits": "cpp",
++    "new": "cpp",
++    "numbers": "cpp",
++    "ostream": "cpp",
++    "stdexcept": "cpp",
++    "streambuf": "cpp",
++    "typeinfo": "cpp"
++  }
++}
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1684920249984)
++++ b/.idea/modules.xml	(date 1684920249984)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/4/4.iml" filepath="$PROJECT_DIR$/4/4.iml" />
++      <module fileurl="file://$PROJECT_DIR$/5/5.iml" filepath="$PROJECT_DIR$/5/5.iml" />
++      <module fileurl="file://$PROJECT_DIR$/6/6.iml" filepath="$PROJECT_DIR$/6/6.iml" />
++      <module fileurl="file://$PROJECT_DIR$/7/7.iml" filepath="$PROJECT_DIR$/7/7.iml" />
++      <module fileurl="file://$PROJECT_DIR$/7/untitled/untitled.iml" filepath="$PROJECT_DIR$/7/untitled/untitled.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/КСМП.iml" filepath="$PROJECT_DIR$/.idea/КСМП.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/КСМП_Гит.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/КСМП_Гит.iml b/.idea/КСМП_Гит.iml
+new file mode 100644
+--- /dev/null	(date 1684920332125)
++++ b/.idea/КСМП_Гит.iml	(date 1684920332125)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: 2/.vscode/launch.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/.vscode/launch.json b/2/.vscode/launch.json
+new file mode 100644
+--- /dev/null	(date 1684870967504)
++++ b/2/.vscode/launch.json	(date 1684870967504)
+@@ -0,0 +1,24 @@
++{
++  "version": "0.2.0",
++  "configurations": [
++    {
++      "name": "C/C++ Runner: Debug Session",
++      "type": "cppdbg",
++      "request": "launch",
++      "args": [],
++      "stopAtEntry": false,
++      "externalConsole": true,
++      "cwd": "c:/Users/Petr/Documents/КСМП/2",
++      "program": "c:/Users/Petr/Documents/КСМП/2/1.exe",
++      "MIMode": "gdb",
++      "miDebuggerPath": "gdb",
++      "setupCommands": [
++        {
++          "description": "Enable pretty-printing for gdb",
++          "text": "-enable-pretty-printing",
++          "ignoreFailures": true
++        }
++      ]
++    }
++  ]
++}
+\ No newline at end of file
+Index: 2/.vscode/c_cpp_properties.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/.vscode/c_cpp_properties.json b/2/.vscode/c_cpp_properties.json
+new file mode 100644
+--- /dev/null	(date 1684870683988)
++++ b/2/.vscode/c_cpp_properties.json	(date 1684870683988)
+@@ -0,0 +1,18 @@
++{
++    "configurations": [
++        {
++            "name": "windows-gcc-x64",
++            "includePath": [
++                "C:\\\\Users\\\\Petr\\\\Documents\\\\КСМП\\\\**"
++            ],
++            "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
++            "cStandard": "${default}",
++            "cppStandard": "${default}",
++            "intelliSenseMode": "windows-gcc-x64",
++            "compilerArgs": [
++                ""
++            ]
++        }
++    ],
++    "version": 4
++}
+\ No newline at end of file
+Index: 2/.vs/VSWorkspaceState.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/.vs/VSWorkspaceState.json b/2/.vs/VSWorkspaceState.json
+new file mode 100644
+--- /dev/null	(date 1684873013979)
++++ b/2/.vs/VSWorkspaceState.json	(date 1684873013979)
+@@ -0,0 +1,7 @@
++{
++  "ExpandedNodes": [
++    ""
++  ],
++  "SelectedNode": "\\Main.cpp",
++  "PreviewInSolutionExplorer": false
++}
+\ No newline at end of file
+Index: 2/.vs/ProjectSettings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/.vs/ProjectSettings.json b/2/.vs/ProjectSettings.json
+new file mode 100644
+--- /dev/null	(date 1684872973021)
++++ b/2/.vs/ProjectSettings.json	(date 1684872973021)
+@@ -0,0 +1,3 @@
++{
++  "CurrentProjectSetting": "x64-Debug"
++}
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1684920250235)
++++ b/.idea/.gitignore	(date 1684920250235)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1684920425348)
++++ b/.idea/vcs.xml	(date 1684920425348)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/4" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: 2/2/2.sln
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/2.sln b/2/2/2.sln
+new file mode 100644
+--- /dev/null	(date 1684873017531)
++++ b/2/2/2.sln	(date 1684873017531)
+@@ -0,0 +1,31 @@
++
++Microsoft Visual Studio Solution File, Format Version 12.00
++# Visual Studio Version 17
++VisualStudioVersion = 17.6.33717.318
++MinimumVisualStudioVersion = 10.0.40219.1
++Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2", "2.vcxproj", "{92E65DC3-88DC-4A38-962A-797520EFF520}"
++EndProject
++Global
++	GlobalSection(SolutionConfigurationPlatforms) = preSolution
++		Debug|x64 = Debug|x64
++		Debug|x86 = Debug|x86
++		Release|x64 = Release|x64
++		Release|x86 = Release|x86
++	EndGlobalSection
++	GlobalSection(ProjectConfigurationPlatforms) = postSolution
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Debug|x64.ActiveCfg = Debug|x64
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Debug|x64.Build.0 = Debug|x64
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Debug|x86.ActiveCfg = Debug|Win32
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Debug|x86.Build.0 = Debug|Win32
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Release|x64.ActiveCfg = Release|x64
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Release|x64.Build.0 = Release|x64
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Release|x86.ActiveCfg = Release|Win32
++		{92E65DC3-88DC-4A38-962A-797520EFF520}.Release|x86.Build.0 = Release|Win32
++	EndGlobalSection
++	GlobalSection(SolutionProperties) = preSolution
++		HideSolutionNode = FALSE
++	EndGlobalSection
++	GlobalSection(ExtensibilityGlobals) = postSolution
++		SolutionGuid = {8300ACD7-0162-4DED-82C4-CC3624C8DA14}
++	EndGlobalSection
++EndGlobal
+Index: 2/CppProperties.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/CppProperties.json b/2/CppProperties.json
+new file mode 100644
+--- /dev/null	(date 1684872972438)
++++ b/2/CppProperties.json	(date 1684872972438)
+@@ -0,0 +1,21 @@
++{
++  "configurations": [
++    {
++      "inheritEnvironments": [
++        "msvc_x64"
++      ],
++      "name": "x64-Debug",
++      "includePath": [
++        "${env.INCLUDE}",
++        "${workspaceRoot}\\**"
++      ],
++      "defines": [
++        "WIN32",
++        "_DEBUG",
++        "UNICODE",
++        "_UNICODE"
++      ],
++      "intelliSenseMode": "windows-msvc-x64"
++    }
++  ]
++}
+\ No newline at end of file
+Index: 2/2/main.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/main.cpp b/2/2/main.cpp
+new file mode 100644
+--- /dev/null	(date 1684876737372)
++++ b/2/2/main.cpp	(date 1684876737372)
+@@ -0,0 +1,9 @@
++#include <iostream>
++#include "Menu.h"
++
++int main() {
++    setlocale(LC_ALL, "Rus");
++    system("color f0");
++    menu();
++    return 0;
++}
+Index: 2/2/2.vcxproj.user
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/2.vcxproj.user b/2/2/2.vcxproj.user
+new file mode 100644
+--- /dev/null	(date 1684873016161)
++++ b/2/2/2.vcxproj.user	(date 1684873016161)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="utf-8"?>
++<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <PropertyGroup />
++</Project>
+\ No newline at end of file
+Index: 2/2/2.vcxproj.filters
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/2.vcxproj.filters b/2/2/2.vcxproj.filters
+new file mode 100644
+--- /dev/null	(date 1684880526105)
++++ b/2/2/2.vcxproj.filters	(date 1684880526105)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="utf-8"?>
++<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <ItemGroup>
++    <Filter Include="Исходные файлы">
++      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
++      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
++    </Filter>
++    <Filter Include="Файлы заголовков">
++      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
++      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
++    </Filter>
++    <Filter Include="Файлы ресурсов">
++      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
++      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
++    </Filter>
++  </ItemGroup>
++</Project>
+\ No newline at end of file
+Index: 2/2/2.vcxproj
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/2.vcxproj b/2/2/2.vcxproj
+new file mode 100644
+--- /dev/null	(date 1684880526111)
++++ b/2/2/2.vcxproj	(date 1684880526111)
+@@ -0,0 +1,132 @@
++<?xml version="1.0" encoding="utf-8"?>
++<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <ItemGroup Label="ProjectConfigurations">
++    <ProjectConfiguration Include="Debug|Win32">
++      <Configuration>Debug</Configuration>
++      <Platform>Win32</Platform>
++    </ProjectConfiguration>
++    <ProjectConfiguration Include="Release|Win32">
++      <Configuration>Release</Configuration>
++      <Platform>Win32</Platform>
++    </ProjectConfiguration>
++    <ProjectConfiguration Include="Debug|x64">
++      <Configuration>Debug</Configuration>
++      <Platform>x64</Platform>
++    </ProjectConfiguration>
++    <ProjectConfiguration Include="Release|x64">
++      <Configuration>Release</Configuration>
++      <Platform>x64</Platform>
++    </ProjectConfiguration>
++  </ItemGroup>
++  <PropertyGroup Label="Globals">
++    <VCProjectVersion>16.0</VCProjectVersion>
++    <Keyword>Win32Proj</Keyword>
++    <ProjectGuid>{92e65dc3-88dc-4a38-962a-797520eff520}</ProjectGuid>
++    <RootNamespace>My2</RootNamespace>
++    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
++  </PropertyGroup>
++  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
++  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
++    <ConfigurationType>Application</ConfigurationType>
++    <UseDebugLibraries>true</UseDebugLibraries>
++    <PlatformToolset>v143</PlatformToolset>
++    <CharacterSet>Unicode</CharacterSet>
++  </PropertyGroup>
++  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
++    <ConfigurationType>Application</ConfigurationType>
++    <UseDebugLibraries>false</UseDebugLibraries>
++    <PlatformToolset>v143</PlatformToolset>
++    <WholeProgramOptimization>true</WholeProgramOptimization>
++    <CharacterSet>Unicode</CharacterSet>
++  </PropertyGroup>
++  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
++    <ConfigurationType>Application</ConfigurationType>
++    <UseDebugLibraries>true</UseDebugLibraries>
++    <PlatformToolset>v143</PlatformToolset>
++    <CharacterSet>Unicode</CharacterSet>
++  </PropertyGroup>
++  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
++    <ConfigurationType>Application</ConfigurationType>
++    <UseDebugLibraries>false</UseDebugLibraries>
++    <PlatformToolset>v143</PlatformToolset>
++    <WholeProgramOptimization>true</WholeProgramOptimization>
++    <CharacterSet>Unicode</CharacterSet>
++  </PropertyGroup>
++  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
++  <ImportGroup Label="ExtensionSettings">
++  </ImportGroup>
++  <ImportGroup Label="Shared">
++  </ImportGroup>
++  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
++    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
++  </ImportGroup>
++  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
++    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
++  </ImportGroup>
++  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
++    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
++  </ImportGroup>
++  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
++    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
++  </ImportGroup>
++  <PropertyGroup Label="UserMacros" />
++  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
++    <ClCompile>
++      <WarningLevel>Level3</WarningLevel>
++      <SDLCheck>true</SDLCheck>
++      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
++      <ConformanceMode>true</ConformanceMode>
++    </ClCompile>
++    <Link>
++      <SubSystem>Console</SubSystem>
++      <GenerateDebugInformation>true</GenerateDebugInformation>
++    </Link>
++  </ItemDefinitionGroup>
++  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
++    <ClCompile>
++      <WarningLevel>Level3</WarningLevel>
++      <FunctionLevelLinking>true</FunctionLevelLinking>
++      <IntrinsicFunctions>true</IntrinsicFunctions>
++      <SDLCheck>true</SDLCheck>
++      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
++      <ConformanceMode>true</ConformanceMode>
++    </ClCompile>
++    <Link>
++      <SubSystem>Console</SubSystem>
++      <EnableCOMDATFolding>true</EnableCOMDATFolding>
++      <OptimizeReferences>true</OptimizeReferences>
++      <GenerateDebugInformation>true</GenerateDebugInformation>
++    </Link>
++  </ItemDefinitionGroup>
++  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
++    <ClCompile>
++      <WarningLevel>Level3</WarningLevel>
++      <SDLCheck>true</SDLCheck>
++      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
++      <ConformanceMode>true</ConformanceMode>
++    </ClCompile>
++    <Link>
++      <SubSystem>Console</SubSystem>
++      <GenerateDebugInformation>true</GenerateDebugInformation>
++    </Link>
++  </ItemDefinitionGroup>
++  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
++    <ClCompile>
++      <WarningLevel>Level3</WarningLevel>
++      <FunctionLevelLinking>true</FunctionLevelLinking>
++      <IntrinsicFunctions>true</IntrinsicFunctions>
++      <SDLCheck>true</SDLCheck>
++      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
++      <ConformanceMode>true</ConformanceMode>
++    </ClCompile>
++    <Link>
++      <SubSystem>Console</SubSystem>
++      <EnableCOMDATFolding>true</EnableCOMDATFolding>
++      <OptimizeReferences>true</OptimizeReferences>
++      <GenerateDebugInformation>true</GenerateDebugInformation>
++    </Link>
++  </ItemDefinitionGroup>
++  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
++  <ImportGroup Label="ExtensionTargets">
++  </ImportGroup>
++</Project>
+\ No newline at end of file
+Index: 2/2/Point.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/Point.h b/2/2/Point.h
+new file mode 100644
+--- /dev/null	(date 1684876739219)
++++ b/2/2/Point.h	(date 1684876739219)
+@@ -0,0 +1,14 @@
++#pragma once
++
++#include <vector>
++
++struct Point {
++    float x;
++    float y;
++};
++
++extern std::vector<Point> point;
++extern void addPoint();
++extern void outPoint();
++extern float distances(Point p1, Point p2);
++extern void clearPoint();
+Index: 2/2/Point.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/Point.cpp b/2/2/Point.cpp
+new file mode 100644
+--- /dev/null	(date 1684876739696)
++++ b/2/2/Point.cpp	(date 1684876739696)
+@@ -0,0 +1,28 @@
++#include "Point.h"
++#include <iostream>
++
++std::vector<Point> point(0);
++
++void addPoint() {
++    float x, y;
++    std::cin >> x >> y;
++    Point newPoint{ x, y };
++    point.push_back(newPoint);
++}
++
++void outPoint() {
++    for (int i = 0; i < point.size(); i++) {
++        std::cout << point[i].x << ' ' << point[i].y << std::endl;
++    }
++    if (point.size() == 0) {
++        std::cout << "����� �� ����������";
++    }
++}
++
++float distances(Point p1, Point p2) {
++    return sqrt(pow((p2.x - p1.x), 2) + pow((p2.y - p1.y), 2));
++}
++
++void clearPoint() {
++    point.clear();
++}
+Index: 2/2/Menu.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/Menu.h b/2/2/Menu.h
+new file mode 100644
+--- /dev/null	(date 1684876738297)
++++ b/2/2/Menu.h	(date 1684876738297)
+@@ -0,0 +1,7 @@
++#pragma once
++
++#include <iostream>
++#include "Poly.h"
++
++void showmenu();
++void menu();
+Index: 2/2/Menu.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/Menu.cpp b/2/2/Menu.cpp
+new file mode 100644
+--- /dev/null	(date 1684876738740)
++++ b/2/2/Menu.cpp	(date 1684876738740)
+@@ -0,0 +1,56 @@
++#include "Menu.h"
++
++void showmenu() {
++    std::cout << std::endl << "������������ ������ �2" << std::endl;
++    std::cout << "1. ������ �����" << std::endl;
++    std::cout << "2. ������� �����" << std::endl;
++    std::cout << "3. ���������� �������" << std::endl;
++    std::cout << "4. ���������� ��������" << std::endl;
++    std::cout << "5. ��������� ������ ����� � ����" << std::endl;
++    std::cout << "6. ��������� ����� �� �����" << std::endl;
++    std::cout << "7. �������� ���� �� �����" << std::endl;
++    std::cout << "0. ����� �� ���������" << std::endl;
++}
++
++void menu() {
++    int c = 1;
++    while (c != 0) {
++        showmenu();
++        std::cin >> c;
++        switch (c) {
++        case 1:
++            std::cout << "������ x � y: " << std::endl;
++            addPoint();
++            std::cout << std::endl;
++            break;
++        case 2:
++            std::cout << "���������� �����: " << std::endl;
++            outPoint();
++            break;
++        case 3:
++            std::cout << "�������: " << Area() << std::endl;
++            break;
++        case 4:
++            std::cout << "��������: " << Perimeter() << std::endl;
++            break;
++        case 5:
++            std::cout << "��������� ����� ��������� � ����" << std::endl;
++            writepol();
++            break;
++        case 6:
++            std::cout << "����� ��������� �� �����" << std::endl;
++            readpol();
++            break;
++        case 7:
++            std::cout << "������� ��������� �����" << std::endl;
++            clearPoint();
++            break;
++        case 0:
++            std::cout << "�����" << std::endl;
++            break;
++        default:
++            std::cout << "�������� ����" << std::endl;
++            break;
++        }
++    }
++}
+Index: .idea/libraries/postgresql_42_6_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/postgresql_42_6_0.xml b/.idea/libraries/postgresql_42_6_0.xml
+new file mode 100644
+--- /dev/null	(date 1684920250001)
++++ b/.idea/libraries/postgresql_42_6_0.xml	(date 1684920250001)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="postgresql-42.6.0">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/7/postgresql-42.6.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/КСМП.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/КСМП.iml b/.idea/КСМП.iml
+new file mode 100644
+--- /dev/null	(date 1684920249924)
++++ b/.idea/КСМП.iml	(date 1684920249924)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: 2/2/Poly.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/Poly.h b/2/2/Poly.h
+new file mode 100644
+--- /dev/null	(date 1684876925966)
++++ b/2/2/Poly.h	(date 1684876925966)
+@@ -0,0 +1,14 @@
++#pragma once
++
++#include <cmath>
++#include <iostream>
++#include <fstream>
++#include <vector>
++#include <string>
++#include "Point.h"
++
++extern std::vector<Point> point;
++float Perimeter();
++float Area();
++void writepol();
++void readpol();
+Index: 2/2/Poly.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/Poly.cpp b/2/2/Poly.cpp
+new file mode 100644
+--- /dev/null	(date 1684876740132)
++++ b/2/2/Poly.cpp	(date 1684876740132)
+@@ -0,0 +1,56 @@
++#include "Poly.h"
++#include <iostream>
++#include <fstream>
++
++float Perimeter() {
++    float per = 0;
++    for (int i = 0; i < point.size(); i++) {
++        int j = (i + 1) % point.size();
++        per += distances(point[i], point[j]);
++    }
++    if (per == 0)
++        std::cout << "�������� ������ �����\n";
++    return per;
++}
++
++float Area() {
++    float plosh = 0;
++    float sum = 0;
++    for (int i = 0; i < point.size(); i++) {
++        int j = (i + 1) % point.size();
++        sum += (point[j].x - point[i].x) * (point[j].y + point[i].y);
++    }
++    plosh = abs(sum / 2);
++    if (plosh == 0)
++        std::cout << "�������� ������ �����\n";
++    return plosh;
++}
++
++void writepol() {
++    std::string filename = "pol.txt";
++    std::ofstream file(filename);
++    if (file.is_open()) {
++        for (int i = 0; i < point.size(); i++) {
++            file << point[i].x << ' ' << point[i].y << std::endl;
++        }
++        file.close();
++    }
++    else {
++        std::cout << "������ ��� ������: " << filename << std::endl;
++    }
++}
++
++void readpol() {
++    std::string filename = "pol.txt";
++    std::ifstream file(filename);
++    if (file.is_open()) {
++        std::string line;
++        while (getline(file, line)) {
++            std::cout << line << std::endl;
++        }
++        file.close();
++    }
++    else {
++        std::cout << "������ ��� ������: " << filename << std::endl;
++    }
++}
+Index: .idea/libraries/schema.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/schema.xml b/.idea/libraries/schema.xml
+new file mode 100644
+--- /dev/null	(date 1684920250015)
++++ b/.idea/libraries/schema.xml	(date 1684920250015)
+@@ -0,0 +1,10 @@
++<component name="libraryTable">
++  <library name="schema">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/7/.idea/dataSources/75de74d0-4637-4c2e-a689-23088b30de72/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip!/" />
++      <root url="jar://$PROJECT_DIR$/7/.idea/dataSources/75de74d0-4637-4c2e-a689-23088b30de72/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: 2/2/x64/Debug/2.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/x64/Debug/2.log b/2/2/x64/Debug/2.log
+new file mode 100644
+--- /dev/null	(date 1684876838398)
++++ b/2/2/x64/Debug/2.log	(date 1684876838398)
+@@ -0,0 +1,5 @@
++  Menu.cpp
++  Poly.cpp
++  main.cpp
++  Создание кода...
++  2.vcxproj -> C:\Users\Petr\Documents\КСМП\2\2\x64\Debug\2.exe
+Index: 2/2/x64/Debug/2.exe.recipe
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/x64/Debug/2.exe.recipe b/2/2/x64/Debug/2.exe.recipe
+new file mode 100644
+--- /dev/null	(date 1684876838400)
++++ b/2/2/x64/Debug/2.exe.recipe	(date 1684876838400)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="utf-8"?>
++<Project>
++  <ProjectOutputs>
++    <ProjectOutput>
++      <FullPath>C:\Users\Petr\Documents\КСМП\2\2\x64\Debug\2.exe</FullPath>
++    </ProjectOutput>
++  </ProjectOutputs>
++  <ContentFiles />
++  <SatelliteDlls />
++  <NonRecipeFileRefs />
++</Project>
+\ No newline at end of file
+Index: 2/2/x64/Debug/2.vcxproj.FileListAbsolute.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/x64/Debug/2.vcxproj.FileListAbsolute.txt b/2/2/x64/Debug/2.vcxproj.FileListAbsolute.txt
+new file mode 100644
+--- /dev/null	(date 1684876746135)
++++ b/2/2/x64/Debug/2.vcxproj.FileListAbsolute.txt	(date 1684876746135)
+@@ -0,0 +1,1 @@
++C:\Users\Petr\Documents\КСМП\2\2\x64\Debug\2.exe
+Index: 7/untitled/untitled.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/7/untitled/untitled.iml b/7/untitled/untitled.iml
+new file mode 100644
+--- /dev/null	(date 1684920249940)
++++ b/7/untitled/untitled.iml	(date 1684920249940)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: 2/Point.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#pragma once\r\n\r\n#include <vector>\r\n\r\nstruct Point {\r\n    float x;\r\n    float y;\r\n};\r\n\r\nextern std::vector<Point> point;\r\nextern void addPoint();\r\nextern void outPoint();\r\nextern float distances(Point p1, Point p2);\r\nextern void clearPoint();\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/Point.h b/2/Point.h
+--- a/2/Point.h	(revision df7414f52853e0ffe9678127ad5c0c97db7f07f7)
++++ b/2/Point.h	(date 1684871149145)
+@@ -1,13 +1,17 @@
+ #pragma once
+-
++#include <cmath>
++#include <iostream>
++#include <fstream>
+ #include <vector>
+-
++#include <string>
++#include "Menu.h"
++#include "Poly.h"
++#include "Point.cpp"
++using namespace std;
+ struct Point {
+     float x;
+     float y;
+ };
+-
+-extern std::vector<Point> point;
+ extern void addPoint();
+ extern void outPoint();
+ extern float distances(Point p1, Point p2);
+Index: 2/2/x64/Debug/2.tlog/Cl.items.tlog
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/Cl.items.tlog b/2/2/x64/Debug/2.tlog/Cl.items.tlog
+new file mode 100644
+--- /dev/null	(date 1684876838403)
++++ b/2/2/x64/Debug/2.tlog/Cl.items.tlog	(date 1684876838403)
+@@ -0,0 +1,4 @@
++C:\Users\Petr\Documents\КСМП\2\2\main.cpp;C:\Users\Petr\Documents\КСМП\2\2\x64\Debug\main.obj
++C:\Users\Petr\Documents\КСМП\2\2\Menu.cpp;C:\Users\Petr\Documents\КСМП\2\2\x64\Debug\Menu.obj
++C:\Users\Petr\Documents\КСМП\2\2\Point.cpp;C:\Users\Petr\Documents\КСМП\2\2\x64\Debug\Point.obj
++C:\Users\Petr\Documents\КСМП\2\2\Poly.cpp;C:\Users\Petr\Documents\КСМП\2\2\x64\Debug\Poly.obj
+Index: 2/2/x64/Debug/2.tlog/CL.command.1.tlog
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-16LE
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/CL.command.1.tlog b/2/2/x64/Debug/2.tlog/CL.command.1.tlog
+new file mode 100644
+--- /dev/null	(date 1684876838276)
++++ b/2/2/x64/Debug/2.tlog/CL.command.1.tlog	(date 1684876838276)
+@@ -0,0 +1,8 @@
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.CPP
++/c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"X64\DEBUG\\" /Fd"X64\DEBUG\VC143.PDB" /external:W3 /Gd /TP /FC C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.CPP
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.CPP
++/c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"X64\DEBUG\\" /Fd"X64\DEBUG\VC143.PDB" /external:W3 /Gd /TP /FC C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.CPP
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.CPP
++/c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"X64\DEBUG\\" /Fd"X64\DEBUG\VC143.PDB" /external:W3 /Gd /TP /FC C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.CPP
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MAIN.CPP
++/c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"X64\DEBUG\\" /Fd"X64\DEBUG\VC143.PDB" /external:W3 /Gd /TP /FC C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MAIN.CPP
+Index: 2/2/x64/Debug/2.tlog/2.lastbuildstate
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/2.lastbuildstate b/2/2/x64/Debug/2.tlog/2.lastbuildstate
+new file mode 100644
+--- /dev/null	(date 1684876838404)
++++ b/2/2/x64/Debug/2.tlog/2.lastbuildstate	(date 1684876838404)
+@@ -0,0 +1,2 @@
++PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.36.32532:TargetPlatformVersion=10.0.22000.0:
++Debug|x64|C:\Users\Petr\Documents\КСМП\2\2\|
+Index: 2/Menu.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#pragma once\r\n\r\n#include <iostream>\r\n#include \"Poly.h\"\r\n\r\nvoid showmenu();\r\nvoid menu();\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/Menu.h b/2/Menu.h
+--- a/2/Menu.h	(revision df7414f52853e0ffe9678127ad5c0c97db7f07f7)
++++ b/2/Menu.h	(date 1684871174111)
+@@ -1,7 +1,8 @@
+-#pragma once
+-
+ #include <iostream>
++#include <vector>
++#include "Point.h"
+ #include "Poly.h"
+-
+-void showmenu();
+-void menu();
++#include "Poly.cpp"
++using namespace std;
++extern void showmenu();
++extern void menu();
+Index: 7/untitled/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/7/untitled/src/Main.java b/7/untitled/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1684883046597)
++++ b/7/untitled/src/Main.java	(date 1684883046597)
+@@ -0,0 +1,5 @@
++public class Main {
++    public static void main(String[] args) {
++        System.out.println("Hello world!");
++    }
++}
+\ No newline at end of file
+Index: 2/2/x64/Debug/2.tlog/link.read.1.tlog
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-16LE
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/link.read.1.tlog b/2/2/x64/Debug/2.tlog/link.read.1.tlog
+new file mode 100644
+--- /dev/null	(date 1684876838397)
++++ b/2/2/x64/Debug/2.tlog/link.read.1.tlog	(date 1684876838397)
+@@ -0,0 +1,25 @@
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MAIN.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MENU.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POINT.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POLY.OBJ
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\KERNEL32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\USER32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\GDI32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\WINSPOOL.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\COMDLG32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\ADVAPI32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\SHELL32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\OLE32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\OLEAUT32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\UUID.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\ODBC32.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UM\X64\ODBCCP32.LIB
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MAIN.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MENU.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POINT.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POLY.OBJ
++C:\WINDOWS\SYSTEM32\TZRES.DLL
++C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\LIB\X64\MSVCPRTD.LIB
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\LIB\X64\MSVCRTD.LIB
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\LIB\X64\OLDNAMES.LIB
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\LIB\X64\VCRUNTIMED.LIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22000.0\UCRT\X64\UCRTD.LIB
++C:\USERS\PETR\DOCUMENTS\ксмп\2\2\X64\DEBUG\VC143.PDB
+Index: 2/main.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <iostream>\r\n#include \"Menu.h\"\r\n\r\nint main() {\r\n    setlocale(LC_ALL, \"Rus\");\r\n    system(\"color f0\");\r\n    menu();\r\n    return 0;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/main.cpp b/2/main.cpp
+--- a/2/main.cpp	(revision df7414f52853e0ffe9678127ad5c0c97db7f07f7)
++++ b/2/main.cpp	(date 1684872980353)
+@@ -1,9 +1,11 @@
++#pragma once
+ #include <iostream>
++#include "Point.h"
+ #include "Menu.h"
+-
++#include "Poly.h"
++using namespace std;
+ int main() {
+     setlocale(LC_ALL, "Rus");
+     system("color f0");
+     menu();
+-    return 0;
+ }
+Index: 2/2/x64/Debug/2.tlog/link.command.1.tlog
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-16LE
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/link.command.1.tlog b/2/2/x64/Debug/2.tlog/link.command.1.tlog
+new file mode 100644
+--- /dev/null	(date 1684876838398)
++++ b/2/2/x64/Debug/2.tlog/link.command.1.tlog	(date 1684876838398)
+@@ -0,0 +1,5 @@
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MAIN.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MENU.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POINT.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POLY.OBJ
++/OUT:"C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\2.EXE" /INCREMENTAL /ILK:"X64\DEBUG\2.ILK" /NOLOGO KERNEL32.LIB USER32.LIB GDI32.LIB WINSPOOL.LIB COMDLG32.LIB ADVAPI32.LIB SHELL32.LIB OLE32.LIB OLEAUT32.LIB UUID.LIB ODBC32.LIB ODBCCP32.LIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\2.PDB" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\2.LIB" /MACHINE:X64 X64\DEBUG\MAIN.OBJ
++X64\DEBUG\MENU.OBJ
++X64\DEBUG\POINT.OBJ
++X64\DEBUG\POLY.OBJ
+Index: 2/2/x64/Debug/2.tlog/CL.write.1.tlog
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-16LE
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/CL.write.1.tlog b/2/2/x64/Debug/2.tlog/CL.write.1.tlog
+new file mode 100644
+--- /dev/null	(date 1684876838275)
++++ b/2/2/x64/Debug/2.tlog/CL.write.1.tlog	(date 1684876838275)
+@@ -0,0 +1,21 @@
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MAIN.CPP|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.CPP|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.CPP|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.PDB
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.IDB
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MAIN.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POLY.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POINT.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MENU.OBJ
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.PDB
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MAIN.CPP|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.CPP|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.PDB
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.IDB
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MAIN.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POLY.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MENU.OBJ
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.PDB
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.PDB
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MAIN.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\VC143.PDB
+Index: 2/Menu.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include \"Menu.h\"\r\n\r\nvoid showmenu() {\r\n    std::cout << std::endl << \"������������ ������ �2\" << std::endl;\r\n    std::cout << \"1. ������ �����\" << std::endl;\r\n    std::cout << \"2. ������� �����\" << std::endl;\r\n    std::cout << \"3. ���������� �������\" << std::endl;\r\n    std::cout << \"4. ���������� ��������\" << std::endl;\r\n    std::cout << \"5. ��������� ������ ����� � ����\" << std::endl;\r\n    std::cout << \"6. ��������� ����� �� �����\" << std::endl;\r\n    std::cout << \"7. �������� ���� �� �����\" << std::endl;\r\n    std::cout << \"0. ����� �� ���������\" << std::endl;\r\n}\r\n\r\nvoid menu() {\r\n    int c = 1;\r\n    while (c != 0) {\r\n        showmenu();\r\n        std::cin >> c;\r\n        switch (c) {\r\n        case 1:\r\n            std::cout << \"������ x � y: \" << std::endl;\r\n            addPoint();\r\n            std::cout << std::endl;\r\n            break;\r\n        case 2:\r\n            std::cout << \"���������� �����: \" << std::endl;\r\n            outPoint();\r\n            break;\r\n        case 3:\r\n            std::cout << \"�������: \" << Area() << std::endl;\r\n            break;\r\n        case 4:\r\n            std::cout << \"��������: \" << Perimeter() << std::endl;\r\n            break;\r\n        case 5:\r\n            std::cout << \"��������� ����� ��������� � ����\" << std::endl;\r\n            writepol();\r\n            break;\r\n        case 6:\r\n            std::cout << \"����� ��������� �� �����\" << std::endl;\r\n            readpol();\r\n            break;\r\n        case 7:\r\n            std::cout << \"������� ��������� �����\" << std::endl;\r\n            clearPoint();\r\n            break;\r\n        case 0:\r\n            std::cout << \"�����\" << std::endl;\r\n            break;\r\n        default:\r\n            std::cout << \"�������� ����\" << std::endl;\r\n            break;\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/Menu.cpp b/2/Menu.cpp
+--- a/2/Menu.cpp	(revision df7414f52853e0ffe9678127ad5c0c97db7f07f7)
++++ b/2/Menu.cpp	(date 1684869568056)
+@@ -1,55 +1,53 @@
+ #include "Menu.h"
+-
+ void showmenu() {
+-    std::cout << std::endl << "������������ ������ �2" << std::endl;
+-    std::cout << "1. ������ �����" << std::endl;
+-    std::cout << "2. ������� �����" << std::endl;
+-    std::cout << "3. ���������� �������" << std::endl;
+-    std::cout << "4. ���������� ��������" << std::endl;
+-    std::cout << "5. ��������� ������ ����� � ����" << std::endl;
+-    std::cout << "6. ��������� ����� �� �����" << std::endl;
+-    std::cout << "7. �������� ���� �� �����" << std::endl;
+-    std::cout << "0. ����� �� ���������" << std::endl;
++    cout << endl << "Лабораторная работа №2" << endl;
++    cout << "1. Ввести точки" << endl;
++    cout << "2. Вывести точки" << endl;
++    cout << "3. Расчитать площадь" << endl;
++    cout << "4. Расчитать периметр" << endl;
++    cout << "5. Сохранить данные точки в файл" << endl;
++    cout << "6. Загрузить точки из файла" << endl;
++    cout << "7. Очистить поле от точек" << endl;
++    cout << "0. Выйти из программы" << endl;
+ }
+-
+ void menu() {
+     int c = 1;
+     while (c != 0) {
+         showmenu();
+-        std::cin >> c;
++        cin >> c;
+         switch (c) {
+         case 1:
+-            std::cout << "������ x � y: " << std::endl;
++            cout << "Ввести x и y: " << endl;
+             addPoint();
+-            std::cout << std::endl;
++            cout << endl;
+             break;
+         case 2:
+-            std::cout << "���������� �����: " << std::endl;
++            cout << "Координаты точек: " << endl;
+             outPoint();
+             break;
+         case 3:
+-            std::cout << "�������: " << Area() << std::endl;
++            cout << "Площадь: " << Area() << endl;
+             break;
+         case 4:
+-            std::cout << "��������: " << Perimeter() << std::endl;
++            cout << "Периметр: " << Perimeter() << endl;
+             break;
+         case 5:
+-            std::cout << "��������� ����� ��������� � ����" << std::endl;
++            cout << "Выбранные точки сохранены в файл" << endl;
+             writepol();
+             break;
+         case 6:
+-            std::cout << "����� ��������� �� �����" << std::endl;
++            cout << "Точки загружены из файла" << endl;
+             readpol();
+             break;
+         case 7:
+-            std::cout << "������� ��������� �����" << std::endl;
++            cout << "Очистка введеных точек" << endl;
+             clearPoint();
+             break;
+         case 0:
+-            std::cout << "�����" << std::endl;
++            cout << "Конец" << endl;
+             break;
+         default:
+-            std::cout << "�������� ����" << std::endl;
++            cout << "Неверный ввод" << endl;
+             break;
+         }
+     }
+Index: 2/2/x64/Debug/2.tlog/CL.read.1.tlog
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-16LE
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/CL.read.1.tlog b/2/2/x64/Debug/2.tlog/CL.read.1.tlog
+new file mode 100644
+--- /dev/null	(date 1684876838276)
++++ b/2/2/x64/Debug/2.tlog/CL.read.1.tlog	(date 1684876838276)
+@@ -0,0 +1,439 @@
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VECTOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS_CORE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CONCURRENCYSAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VADEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XKEYCHECK.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XMEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDINT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDINT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDLIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDLIB.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MALLOC.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SEARCH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDDEF.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDLIB.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CFLOAT
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\FLOAT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CWCHAR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDIO
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_STDIO_CONFIG.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\WCHAR.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMCPY_S.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\ERRNO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCONIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCTYPE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WDIRECT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SHARE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WPROCESS.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WTIME.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\STAT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\TYPES.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.INL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISA_AVAILABILITY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTR1COMMON
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INITIALIZER_LIST
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\NEW
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EXCEPTION
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CRTDBG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW_DEBUG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CRTDEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\USE_ANSI.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPE_TRAITS
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MALLOC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_EXCEPTION.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_TERMINATE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XATOMIC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XUTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_ITER_CORE.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\UTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTRING
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMORY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SANITIZER_ANNOTATE_CONTAINER.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\OSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCNUM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CMATH
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ITERATOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSFWD
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STREAMBUF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XIOSBASE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SHARE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SYSTEM_ERROR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SYSTEM_ERROR_ABI.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CERRNO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDEXCEPT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTRING
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XCALL_ONCE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XERRC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ATOMIC
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTHREADS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTIMEC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CTIME
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\TIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCALE
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\MEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPEINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_TYPEINFO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XFACET
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_XLOCINFO_TYPES.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CCTYPE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CTYPE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLOCALE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\LOCALE.H
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS_CORE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CONCURRENCYSAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VADEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XKEYCHECK.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\OSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCNUM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CMATH
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CRTDBG.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW_DEBUG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CRTDEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\USE_ANSI.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDLIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDLIB.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MALLOC.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SEARCH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDDEF.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDLIB.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTR1COMMON
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.INL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDIO
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_STDIO_CONFIG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ITERATOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSFWD
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTRING
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMORY.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMCPY_S.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\ERRNO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTRING.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CWCHAR
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\WCHAR.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCONIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCTYPE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WDIRECT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SHARE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WPROCESS.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WTIME.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\STAT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\TYPES.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INITIALIZER_LIST
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XUTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_ITER_CORE.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\UTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPE_TRAITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDINT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDINT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STREAMBUF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XIOSBASE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SHARE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SYSTEM_ERROR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SYSTEM_ERROR_ABI.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CERRNO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDEXCEPT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EXCEPTION
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MALLOC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_EXCEPTION.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_TERMINATE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTRING
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XMEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CFLOAT
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\FLOAT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISA_AVAILABILITY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\NEW
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XATOMIC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SANITIZER_ANNOTATE_CONTAINER.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XCALL_ONCE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XERRC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ATOMIC
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTHREADS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTIMEC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CTIME
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\TIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCALE
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\MEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPEINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_TYPEINFO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XFACET
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_XLOCINFO_TYPES.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CCTYPE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CTYPE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLOCALE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\LOCALE.H
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\FSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VECTOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STRING
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.H
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.CPP
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CMATH
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS_CORE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CONCURRENCYSAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VADEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XKEYCHECK.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CRTDBG.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW_DEBUG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CRTDEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\USE_ANSI.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDLIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDLIB.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MALLOC.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SEARCH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDDEF.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDLIB.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTR1COMMON
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.INL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\OSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCNUM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDIO
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_STDIO_CONFIG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ITERATOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSFWD
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTRING
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMORY.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMCPY_S.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\ERRNO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTRING.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CWCHAR
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\WCHAR.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCONIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCTYPE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WDIRECT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SHARE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WPROCESS.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WTIME.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\STAT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\TYPES.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INITIALIZER_LIST
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XUTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_ITER_CORE.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\UTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPE_TRAITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDINT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDINT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STREAMBUF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XIOSBASE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SHARE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SYSTEM_ERROR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SYSTEM_ERROR_ABI.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CERRNO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDEXCEPT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EXCEPTION
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MALLOC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_EXCEPTION.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_TERMINATE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTRING
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XMEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CFLOAT
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\FLOAT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISA_AVAILABILITY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\NEW
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XATOMIC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SANITIZER_ANNOTATE_CONTAINER.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XCALL_ONCE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XERRC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ATOMIC
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTHREADS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTIMEC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CTIME
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\TIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCALE
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\MEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPEINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_TYPEINFO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XFACET
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_XLOCINFO_TYPES.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CCTYPE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CTYPE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLOCALE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\LOCALE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\FSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VECTOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STRING
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.H
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MAIN.CPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS_CORE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CONCURRENCYSAL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VADEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XKEYCHECK.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\OSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCNUM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CMATH
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\YVALS.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CRTDBG.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW_DEBUG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_NEW.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CRTDEFS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\USE_ANSI.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDLIB
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MATH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDLIB.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MALLOC.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SEARCH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDDEF.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDLIB.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTR1COMMON
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INTRIN0.INL.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDIO
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTDIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_STDIO_CONFIG.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ITERATOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\IOSFWD
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTRING
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMORY.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_MEMCPY_S.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\ERRNO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_STRING.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WSTRING.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CWCHAR
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\WCHAR.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCONIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WCTYPE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WDIRECT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WIO.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_SHARE.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WPROCESS.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_WTIME.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\STAT.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SYS\TYPES.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDDEF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\INITIALIZER_LIST
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XUTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_ITER_CORE.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\UTILITY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPE_TRAITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CSTDINT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDINT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STREAMBUF
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XIOSBASE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\SHARE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\SYSTEM_ERROR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SYSTEM_ERROR_ABI.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CERRNO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STDEXCEPT
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EXCEPTION
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\MALLOC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_EXCEPTION.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\EH.H
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CORECRT_TERMINATE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XSTRING
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XMEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\LIMITS
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CFLOAT
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\FLOAT.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ISA_AVAILABILITY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\NEW
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XATOMIC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_SANITIZER_ANNOTATE_CONTAINER.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XCALL_ONCE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XERRC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\ATOMIC
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTHREADS.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XTIMEC.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CTIME
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\TIME.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCALE
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\MEMORY
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\TYPEINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VCRUNTIME_TYPEINFO.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XFACET
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\XLOCINFO
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\__MSVC_XLOCINFO_TYPES.HPP
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CCTYPE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\CTYPE.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\CLOCALE
++C:\PROGRAM FILES (X86)\WINDOWS KITS\10\INCLUDE\10.0.22000.0\UCRT\LOCALE.H
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\MENU.H
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POLY.H
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\FSTREAM
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\VECTOR
++C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.36.32532\INCLUDE\STRING
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\POINT.H
+Index: 2/Poly.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#pragma once\r\n\r\n#include <cmath>\r\n#include <iostream>\r\n#include <fstream>\r\n#include <vector>\r\n#include <string>\r\n#include \"Point.h\"\r\n\r\nextern std::vector<Point> point;\r\nfloat Perimeter();\r\nfloat Area();\r\nvoid writepol();\r\nvoid readpol();\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/Poly.h b/2/Poly.h
+--- a/2/Poly.h	(revision df7414f52853e0ffe9678127ad5c0c97db7f07f7)
++++ b/2/Poly.h	(date 1684871148025)
+@@ -1,14 +1,17 @@
+ #pragma once
+-
+ #include <cmath>
+ #include <iostream>
+ #include <fstream>
+ #include <vector>
+ #include <string>
+-#include "Point.h"
+-
+-extern std::vector<Point> point;
+-float Perimeter();
+-float Area();
+-void writepol();
+-void readpol();
++#include "Menu.h"
++using namespace std;
++struct Point {
++    float x;
++    float y;
++};
++extern vector point;
++extern void addPoint();
++extern void outPoint();
++extern float distances(Point p1, Point p2);
++extern void clearPoint();
+Index: 2/Point.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include \"Point.h\"\r\n#include <iostream>\r\n\r\nstd::vector<Point> point(0);\r\n\r\nvoid addPoint() {\r\n    float x, y;\r\n    std::cin >> x >> y;\r\n    Point newPoint{ x, y };\r\n    point.push_back(newPoint);\r\n}\r\n\r\nvoid outPoint() {\r\n    for (int i = 0; i < point.size(); i++) {\r\n        std::cout << point[i].x << ' ' << point[i].y << std::endl;\r\n    }\r\n    if (point.size() == 0) {\r\n        std::cout << \"����� �� ����������\";\r\n    }\r\n}\r\n\r\nfloat distances(Point p1, Point p2) {\r\n    return sqrt(pow((p2.x - p1.x), 2) + pow((p2.y - p1.y), 2));\r\n}\r\n\r\nvoid clearPoint() {\r\n    point.clear();\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/Point.cpp b/2/Point.cpp
+--- a/2/Point.cpp	(revision df7414f52853e0ffe9678127ad5c0c97db7f07f7)
++++ b/2/Point.cpp	(date 1684869530953)
+@@ -1,28 +1,31 @@
++#pragma once
+ #include "Point.h"
+-#include <iostream>
+-
+-std::vector<Point> point(0);
+-
++vector <Point> point(0);
++// Добавить точки
+ void addPoint() {
+     float x, y;
+-    std::cin >> x >> y;
++    cin >> x >> y;
+     Point newPoint{ x, y };
+     point.push_back(newPoint);
+ }
+ 
++// Вывод точек
+ void outPoint() {
+-    for (int i = 0; i < point.size(); i++) {
+-        std::cout << point[i].x << ' ' << point[i].y << std::endl;
++    for (int i = 0; i < point.size(); i++)
++    {
++        cout << point[i].x << ' ' << point[i].y << endl;
+     }
+     if (point.size() == 0) {
+-        std::cout << "����� �� ����������";
++        cout << "Точки не обнаружены";
+     }
+ }
+ 
++// Дистанция между точками
+ float distances(Point p1, Point p2) {
+     return sqrt(pow((p2.x - p1.x), 2) + pow((p2.y - p1.y), 2));
+ }
+ 
++// Очистка вектора точек
+ void clearPoint() {
+     point.clear();
+ }
+Index: 2/Poly.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include \"Poly.h\"\r\n#include <iostream>\r\n#include <fstream>\r\n\r\nfloat Perimeter() {\r\n    float per = 0;\r\n    for (int i = 0; i < point.size(); i++) {\r\n        int j = (i + 1) % point.size();\r\n        per += distances(point[i], point[j]);\r\n    }\r\n    if (per == 0)\r\n        std::cout << \"�������� ������ �����\\n\";\r\n    return per;\r\n}\r\n\r\nfloat Area() {\r\n    float plosh = 0;\r\n    float sum = 0;\r\n    for (int i = 0; i < point.size(); i++) {\r\n        int j = (i + 1) % point.size();\r\n        sum += (point[j].x - point[i].x) * (point[j].y + point[i].y);\r\n    }\r\n    plosh = abs(sum / 2);\r\n    if (plosh == 0)\r\n        std::cout << \"�������� ������ �����\\n\";\r\n    return plosh;\r\n}\r\n\r\nvoid writepol() {\r\n    std::string filename = \"pol.txt\";\r\n    std::ofstream file(filename);\r\n    if (file.is_open()) {\r\n        for (int i = 0; i < point.size(); i++) {\r\n            file << point[i].x << ' ' << point[i].y << std::endl;\r\n        }\r\n        file.close();\r\n    }\r\n    else {\r\n        std::cout << \"������ ��� ������: \" << filename << std::endl;\r\n    }\r\n}\r\n\r\nvoid readpol() {\r\n    std::string filename = \"pol.txt\";\r\n    std::ifstream file(filename);\r\n    if (file.is_open()) {\r\n        std::string line;\r\n        while (getline(file, line)) {\r\n            std::cout << line << std::endl;\r\n        }\r\n        file.close();\r\n    }\r\n    else {\r\n        std::cout << \"������ ��� ������: \" << filename << std::endl;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2/Poly.cpp b/2/Poly.cpp
+--- a/2/Poly.cpp	(revision df7414f52853e0ffe9678127ad5c0c97db7f07f7)
++++ b/2/Poly.cpp	(date 1684871229151)
+@@ -1,7 +1,5 @@
+ #include "Poly.h"
+-#include <iostream>
+-#include <fstream>
+-
++#include "Point.h"
+ float Perimeter() {
+     float per = 0;
+     for (int i = 0; i < point.size(); i++) {
+@@ -9,7 +7,7 @@
+         per += distances(point[i], point[j]);
+     }
+     if (per == 0)
+-        std::cout << "�������� ������ �����\n";
++        cout << "Добавьте больше точек\n";
+     return per;
+ }
+ 
+@@ -22,35 +20,36 @@
+     }
+     plosh = abs(sum / 2);
+     if (plosh == 0)
+-        std::cout << "�������� ������ �����\n";
++        cout << "Добавьте больше точек\n";
+     return plosh;
+ }
+ 
+ void writepol() {
+-    std::string filename = "pol.txt";
+-    std::ofstream file(filename);
++    string filename = "pol.txt";
++    ofstream file(filename);
+     if (file.is_open()) {
+-        for (int i = 0; i < point.size(); i++) {
+-            file << point[i].x << ' ' << point[i].y << std::endl;
++        for (int i = 0; i < point.size(); i++)
++        {
++            file << point[i].x << ' ' << point[i].y << endl;
+         }
+         file.close();
+     }
+     else {
+-        std::cout << "������ ��� ������: " << filename << std::endl;
++        cout << "Ошибка записи!\n" << filename << endl;
+     }
+ }
+ 
+ void readpol() {
+-    std::string filename = "pol.txt";
+-    std::ifstream file(filename);
++    string filename = "pol.txt";
++    ifstream file(filename);
+     if (file.is_open()) {
+-        std::string line;
++        string line;
+         while (getline(file, line)) {
+-            std::cout << line << std::endl;
++            cout << line << endl;
+         }
+         file.close();
+     }
+     else {
+-        std::cout << "������ ��� ������: " << filename << std::endl;
++        cout << "Ошибка чтения!\n" << filename << endl;
+     }
+ }
+Index: 2/2/x64/Debug/2.tlog/link.write.1.tlog
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-16LE
+===================================================================
+diff --git a/2/2/x64/Debug/2.tlog/link.write.1.tlog b/2/2/x64/Debug/2.tlog/link.write.1.tlog
+new file mode 100644
+--- /dev/null	(date 1684876838395)
++++ b/2/2/x64/Debug/2.tlog/link.write.1.tlog	(date 1684876838395)
+@@ -0,0 +1,4 @@
++^C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MAIN.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\MENU.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POINT.OBJ|C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\POLY.OBJ
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\2.EXE
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\2.ILK
++C:\USERS\PETR\DOCUMENTS\КСМП\2\2\X64\DEBUG\2.PDB
+diff --git a/2/.vs/2/FileContentIndex/read.lock b/2/.vs/2/FileContentIndex/read.lock
+new file mode 100644
+diff --git a/2/2/.vs/2/FileContentIndex/read.lock b/2/2/.vs/2/FileContentIndex/read.lock
+new file mode 100644

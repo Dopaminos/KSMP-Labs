@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fc437b0-c4e0-4c55-bd16-81399c982770" name="Changes" comment="add 4-7 labs (3rd does not exists)">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/.wsuo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/2.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/2.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/41f138c7-a2a7-43e5-b96b-2488b4c018a2.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/5ee78cc4-f252-4a5f-a601-b8902264bd87.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/66db0844-decd-42f9-a23c-a23fecbab4df.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/6c81edbe-6c2c-4290-9670-ff6922055b50.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/Browse.VC1.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/MAIN1.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/MENU.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/Menu.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/Point.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/Poly.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/d889b980-c2d0-4a3f-b93d-300b156d4ffc.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/dd527ba9-a739-4692-83fe-8df8f78116c2.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/vc143.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/vc143.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QEYVqPYFEbGPJLkW8YqU2KK77l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fc437b0-c4e0-4c55-bd16-81399c982770" name="Changes" comment="" />
+      <created>1684920234606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684920234606</updated>
+      <workItem from="1684920236144" duration="92000" />
+      <workItem from="1684920583144" duration="469000" />
+      <workItem from="1684921063830" duration="788000" />
+    </task>
+    <task id="LOCAL-00001" summary="add 4-7 labs (3rd does not exists)">
+      <created>1684920810243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684920810243</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add 4-7 labs (3rd does not exists)">
+      <created>1684920880723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684920880723</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add 4-7 labs (3rd does not exists)">
+      <created>1684920913087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684920913087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add 4-7 labs (3rd does not exists)">
+      <created>1684921202232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684921202232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add 4-7 labs (3rd does not exists)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 4-7 labs (3rd does not exists)" />
+  </component>
+</project>
